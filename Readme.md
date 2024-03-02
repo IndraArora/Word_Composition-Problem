@@ -65,10 +65,7 @@ The program will output the longest and second longest compounded words along wi
 # Code Flow Diagram
 
 ```mermaid
-Start
 
-│
-▼
 Read Input from File
 │
 ▼
