@@ -64,8 +64,8 @@ int findCompoundedWord()
 // Function to print output
 void printOutput(int ans, auto duration)
 {
-    cout << "Longest Compounded Word" << compounded_words[ans - 1] << endl;
-    cout < < < "Second Longest Compounded Word" < compounded_words[ans - 2] << endl;
+    cout << "Longest Compounded Word: " << compounded_words[ans - 1] << endl;
+    cout << "Second Longest Compounded Word: " << compounded_words[ans - 2] << endl;
     cout << "Time taken by code: " << duration.count() << " milliseconds" << endl;
 }
 
